@@ -125,8 +125,6 @@ Set the default Git branch to main
 git config --global init.defaultBranch main
 ```
 
-Upload SSH public key to GitHub ```Settings > SSH and GPG keys > New SSH key```.
-
 </br>
 
 [Top](#home-server)
