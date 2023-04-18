@@ -4,6 +4,8 @@
 
 ## **Navigate**
 
+- [Setup zsh](./zsh.md)
+
 - [Install Elm](./elm.md)
 
 - [Install Flutter](./flutter.md)
@@ -24,11 +26,11 @@
 
 - [Setup XDG Directories](./xdg-directories.md)
 
-- [Setup ZSH](./zsh.md)
-
 - [Install MatLab](./matlab.md)
 
 - [Install Windows Programs](./windows-programs.md)
+
+- [Setup Windows 11 VM](./windows.md)
 
 - [Setup dconf Settings](./dconf.md)
 
