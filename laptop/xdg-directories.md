@@ -1,8 +1,8 @@
-# **XDG Directories**
+# XDG Directories
 
 [Back](./README.md)
 
-## **Change XDG Directories**
+## Change XDG Directories
 
 Change the user dirs config file ```~/.config/user-dirs.dirs```
 
@@ -17,7 +17,7 @@ Set permissions so it cannot be overwritten
 chmod 0400 ~/.config/user-dirs.dirs
 ```
 
-## **Change Icons for Special Directories**
+## Change Icons for Special Directories
 
 Run a script to change the icons of the music and videos folders to the default folder icon
 

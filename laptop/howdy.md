@@ -1,8 +1,8 @@
-# **Howdy**
+# Howdy
 
 [Back](./README.md)
 
-## **Navigate**
+## Navigate
 
 - [Install Howdy](#install-howdy)
 
@@ -14,7 +14,7 @@
 
 ## Install and Configure Howdy
 
-### **Install Howdy**
+### Install Howdy
 
 Install [Howdy](https://github.com/boltgolt/howdy) from principis/howdy.
 
@@ -23,7 +23,7 @@ sudo dnf copr enable principis/howdy
 sudo dnf --refresh install howdy
 ```
 
-### **Configure Howdy**
+### Configure Howdy
 
 Change the config file for Howdy, open with ```sudo howdy config```.
 
@@ -46,7 +46,7 @@ Add faces to howdy with
 sudo howdy add
 ```
 
-### **Enable IR Emitter**
+### Enable IR Emitter
 
 Get [linux-enable-ir-emitter](https://github.com/EmixamPP/linux-enable-ir-emitter)
 
@@ -68,7 +68,7 @@ Enable the IR Emitter
 sudo linux-enable-ir-emitter configure
 ```
 
-### **Enable Howdy for sudo**
+### Enable Howdy for sudo
 
 Edit ```/etc/pam.d/sudo``` to add the following as the first entry
 
@@ -76,7 +76,7 @@ Edit ```/etc/pam.d/sudo``` to add the following as the first entry
 auth       sufficient   pam_python.so /lib64/security/howdy/pam.py
 ```
 
-### **Enable Howdy for GDM**
+### Enable Howdy for GDM
 
 Edit ```/etc/pam.d/gdm-password``` to add the following
 

@@ -1,24 +1,24 @@
-# **zsh**
+# zsh
 
 [Back](./README.md)
 
-## **Set zsh as Default Shell**
+## Set zsh as Default Shell
 
 Set zsh as default shell with
 
-### **Fedora**
+### Fedora
 
 ```(shell)
 sudo lchsh $USER
 ```
 
-### **Other**
+### Other
 
 ```(shell)
 chsh -s $(which zsh)
 ```
 
-## **Install oh-my-zsh**
+## Install oh-my-zsh
 
 Install oh-my-zsh
 
@@ -30,7 +30,7 @@ chmod +x ~/.install-scripts/oh-my-zsh.sh
 ~/.install-scripts/oh-my-zsh.sh
 ```
 
-## **Install Powerlevel10k**
+## Install Powerlevel10k
 
 Install [Nerd Font](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k) for Powerlevel10k.
 
@@ -48,7 +48,7 @@ exec zsh
 p10k configure
 ```
 
-## **Set zsh Configuration**
+## Set zsh Configuration
 
 Set ```~/.zshrc``` to something resembling the following
 

@@ -1,8 +1,8 @@
-# **TLP**
+# TLP
 
 [Back](./README.md)
 
-## **Install TLP**
+## Install TLP
 
 Install [TLP package](https://linrunner.de/tlp/installation/fedora.html)
 
@@ -16,7 +16,7 @@ Remove conflicting power-profiles-daemon.
 dnf remove power-profiles-daemon
 ```
 
-## **Configure TLP**
+## Configure TLP
 
 Enable and start TLP service
 

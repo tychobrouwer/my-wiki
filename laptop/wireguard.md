@@ -1,8 +1,8 @@
-# **Wireguard**
+# Wireguard
 
 [Back](./README.md)
 
-## **Configure Wireguard**
+## Configure Wireguard
 
 Generate private key with
 

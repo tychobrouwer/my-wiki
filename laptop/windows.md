@@ -1,8 +1,8 @@
-# **Windows 11 VM**
+# Windows 11 VM
 
 [Back](./README.md)
 
-## **Setup Boxes**
+## Setup Boxes
 
 First download the "22H2 Beta2(no sysreq)" ISO file from [here](https://archive.org/details/tiny-11-NTDEV)
 

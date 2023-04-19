@@ -1,8 +1,8 @@
-# **Laptop**
+# Laptop
 
 [Back](../README.md)
 
-## **Navigate**
+## Navigate
 
 - [Setup zsh](./zsh.md)
 
@@ -36,7 +36,7 @@
 
 - [Setup Secure Boot](./secure-boot.md)
 
-## **Laptop Setup**
+## Laptop Setup
 
 - [Updating Packages](#updating-packages)
 
@@ -48,13 +48,13 @@
 
 - [Create Folders](#create-folders)
 
-### **Updating packages**
+### Updating packages
 
 ```(shell)
   dnf upgrade
 ```
 
-### **Installing Packages**
+### Installing Packages
 
 Install RPM Packages
 
@@ -84,7 +84,7 @@ Install FlatPak Packages
                        com.google.Chrome com.mojang.Minecraft
 ```
 
-### **Configure SSH**
+### Configure SSH
 
 Edit ```/etc/ssh/sshd_config``` to disable password authentication by adding
 
@@ -106,7 +106,7 @@ Restart SSH daemon
 systemctl restart sshd
 ```
 
-### **Configure DNF**
+### Configure DNF
 
 Edit ```/etc/dnf/dnf.conf``` to set max parallel downloads by adding
 
@@ -114,11 +114,11 @@ Edit ```/etc/dnf/dnf.conf``` to set max parallel downloads by adding
 max_parallel_downloads=10
 ```
 
-### **Remove YUM repos**
+### Remove YUM repos
 
 In the folder ```/etc/yum.repos.d``` remove "onlyoffice" and other unwanted repos.
 
-### **Create Folders**
+### Create Folders
 
 Create personal folders for installers, devtools, and projects.
 

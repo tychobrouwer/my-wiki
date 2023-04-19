@@ -1,8 +1,8 @@
-# **Windows Programs**
+# Windows Programs
 
 [Back](./README.md)
 
-## **Windows Installers**
+## Windows Installers
 
 Get the windows installers
 
@@ -20,7 +20,7 @@ wine ~/.install-scripts/wargaming.exe
 wine ~/.install-scripts/ubisoft.exe
 ```
 
-## **Install Fonts**
+## Install Fonts
 
 Open Winetricks > "Select the default wineprefix" > "Install a font"
 

@@ -1,6 +1,6 @@
 # My personal Wiki
 
-- ## **[Home server](./homeserver/README.md)**
+- ## [Home server](./homeserver/README.md)
 
   - [Proxmox VE](./homeserver/proxmox.md)
 
@@ -28,4 +28,4 @@
 
   - [Ark Survival Server](./homeserver/ark-survival-server.md)
 
-- ## **[Laptop](./laptop/README.md)**
+- ## [Laptop](./laptop/README.md)

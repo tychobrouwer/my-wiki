@@ -1,8 +1,8 @@
-# **Home Server**
+# Home Server
 
 [Back](../README.md)
 
-## **Navigate**
+## Navigate
 
 - [Proxmox VE](./proxmox.md)
 
@@ -30,7 +30,7 @@
 
 - [Ark Survival Server](./ark-survival-server.md)
 
-## **Server Initialization**
+## Server Initialization
 
 - [Updating Packages](#updating-packages)
 
@@ -42,7 +42,7 @@
 
 - [Configure Git](#configure-git)
 
-### **Updating packages**
+### Updating packages
 
 #### Debian
 
@@ -62,7 +62,7 @@
 pacman -Syu
 ```
 
-### **Installing Packages**
+### Installing Packages
 
 - git
 - python3
@@ -88,7 +88,7 @@ pacman -Syu
   pacman -S "package"
 ```
 
-### **Configure SSH**
+### Configure SSH
 
 Edit ```/etc/ssh/sshd_config``` to disable password authentication by adding
 
@@ -110,7 +110,7 @@ Restart SSH daemon
 systemctl restart sshd
 ```
 
-### **Configure Git**
+### Configure Git
 
 Set the Git variables
 

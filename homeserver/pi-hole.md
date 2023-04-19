@@ -1,8 +1,8 @@
-# **Pi-Hole Unbound**
+# Pi-Hole Unbound
 
 [Back](./README.md)
 
-## **Navigate**
+## Navigate
 
 - [Install Unbound](#install-unbound)
 
@@ -10,7 +10,7 @@
 
 ## Install and Configure Pi-Hole and Unbound
 
-### **Install Unbound**
+### Install Unbound
 
 ```(shell)
 apt install unbound
@@ -107,7 +107,7 @@ Set the root hints file ```/var/lib/unbound/root.hints``` for Unbound
 wget -O /var/lib/unbound/root.hints https://www.internic.net/domain/named.root
 ```
 
-### **Install Pi-Hole**
+### Install Pi-Hole
 
 Make ```/etc/pihole/setupVars.conf``` containing the setup variables for Pi-Hole
 

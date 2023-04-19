@@ -1,8 +1,8 @@
-# **Elm**
+# Elm
 
 [Back](./README.md)
 
-## **Install Elm**
+## Install Elm
 
 Get Elm files
 

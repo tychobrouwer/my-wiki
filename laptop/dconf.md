@@ -1,8 +1,8 @@
-# **dconf Settings**
+# dconf Settings
 
 [Back](./README.md)
 
-## **Configure Settings Using dconf**
+## Configure Settings Using dconf
 
 Set the following dconf settings for personalization of nautilus, ArcMenu, and system.
 

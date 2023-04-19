@@ -1,8 +1,8 @@
-# **Flutter**
+# Flutter
 
 [Back](./README.md)
 
-## **Install Flutter**
+## Install Flutter
 
 Get Flutter repository
 

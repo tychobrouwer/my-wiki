@@ -1,8 +1,8 @@
-# **SMB Mounts**
+# SMB Mounts
 
 [Back](./README.md)
 
-## **Configure SMB**
+## Configure SMB
 
 Set correct file permissions on mount file
 
@@ -23,7 +23,7 @@ Set owner to root
 chown root:root /etc/cifspasswd
 ```
 
-## **Create Mounts**
+## Create Mounts
 
 Create mount folders
 

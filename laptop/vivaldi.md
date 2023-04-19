@@ -1,8 +1,8 @@
-# **Vivaldi**
+# Vivaldi
 
 [Back](./README.md)
 
-## **Add Vivaldi YUM repo**
+## Add Vivaldi YUM repo
 
 Create YUM repo file ```/etc/yum.repos.d/vivaldi.repo``` with the contents
 

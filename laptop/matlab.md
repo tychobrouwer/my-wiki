@@ -1,8 +1,8 @@
-# **MATLAB**
+# MATLAB
 
 [Back](./README.md)
 
-## **Install MATLAB**
+## Install MATLAB
 
 Get installer from <https://nl.mathworks.com/downloads/>
 
@@ -21,7 +21,7 @@ sudo ./install
 
 Install the necessary addons and ensure symbolic links are created
 
-## **Installing Addons**
+## Installing Addons
 
 To allow for adding addons in the future without running the installer again change the permissions of the MATLAB folder
 
@@ -29,7 +29,7 @@ To allow for adding addons in the future without running the installer again cha
 sudo chown -R tychob:tychob /usr/local/MATLAB
 ```
 
-## **Application Icon**
+## Application Icon
 
 Add the desktop file ```/usr/share/applications/matlab.desktop``` to get a shortcut in the application list
 

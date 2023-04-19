@@ -1,8 +1,8 @@
-# **Wireguard VPN**
+# Wireguard VPN
 
 [Back](./README.md)
 
-## **Navigate**
+## Navigate
 
 - [Install Packages](#install-packages)
 
@@ -12,7 +12,7 @@
 
 ## Install and Configure Wireguard VPN
 
-### **Install Packages**
+### Install Packages
 
 Install required packages for Wireguard
 
@@ -20,7 +20,7 @@ Install required packages for Wireguard
 - git
 - wireguard
 
-For Red Hat Wireguard package is named **wireguard-tools**.
+For Red Hat Wireguard package is named wireguard-tools.
 
 ```(shell)
 apt install "package"
@@ -38,7 +38,7 @@ Install required python packages for Wireguard Dashboard
 pip3 install "package"
 ```
 
-### **Configure Wireguard**
+### Configure Wireguard
 
 Set ip forwarding
 
@@ -73,7 +73,7 @@ systemctl start wg-quick@wg0.service
 systemctl enable wg-quick@wg0.service
 ```
 
-### **Install and Configure WG Dashboard**
+### Install and Configure WG Dashboard
 
 Clone Wireguard Dashboard GitHub repository
 

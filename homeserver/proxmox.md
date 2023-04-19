@@ -1,8 +1,8 @@
-# **Proxmox VE**
+# Proxmox VE
 
 [Back](./README.md)
 
-## **Navigate**
+## Navigate
 
 - [Disable Services](#disable-services)
 
@@ -22,7 +22,7 @@
 
 ## Configure Proxmox
 
-### **Disable Services**
+### Disable Services
 
 Disable HA (High Availability) and other services to reduce disk writes from logging.
 
@@ -36,7 +36,7 @@ systemctl stop "service"
 systemctl disable "service"
 ```
 
-### **Install Packages**
+### Install Packages
 
 - neofeth
 - htop
@@ -47,7 +47,7 @@ systemctl disable "service"
 apt install "service"
 ```
 
-### **Setup Email Notifications**
+### Setup Email Notifications
 
 Install the necessary packages
 
@@ -87,7 +87,7 @@ Reload Postfix
 postfix reload
 ```
 
-### **Setup iCloud Photo Downloader**
+### Setup iCloud Photo Downloader
 
 Install [iCloudPD](https://github.com/icloud-photos-downloader/icloud_photos_downloader) for syncing iCloud photo library using pip
 
@@ -105,7 +105,7 @@ icloudpd -d /share/file-share/Pictures/ -u "EMAIL" -p "PASSWORD" \
 chown -R shareuser:sharegroup /media/file-share/Pictures
 ```
 
-### **Disable Subscription Warning**
+### Disable Subscription Warning
 
 Change in ```/usr/share/javascript/proxmox-widget-toolkit/proxmoxlib.js```
 
@@ -127,7 +127,7 @@ Restart pveproxy to take affect
 systemctl restart pveproxy
 ```
 
-### **Configurations for PBS**
+### Configurations for PBS
 
 Create PBS user
 
@@ -142,7 +142,7 @@ Ensure backup directory is present
 mkdir /mnt/data1/pbs-dumps
 ```
 
-### **Configurations for SMB**
+### Configurations for SMB
 
 Create user and group for SMB
 
@@ -165,7 +165,7 @@ chown -R shareuser:sharegroup /media/file-share
 chown -R shareuser:sharegroup /mnt/data0/video-share
 ```
 
-### **Setup Proxmox Backup Client**
+### Setup Proxmox Backup Client
 
 Install PBS repository by adding the repository in ```/etc/apt/sources.list```
 
@@ -203,7 +203,7 @@ Create a cron job by adding to ```/var/spool/cron/crontabs/root```
 0 2,8,17,22 * * * /root/pbs-proxmox-backup.sh
 ```
 
-### **Installing NVIDIA Drivers**
+### Installing NVIDIA Drivers
 
 Used [guide](https://theorangeone.net/posts/lxc-nvidia-gpu-passthrough/).
 

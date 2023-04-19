@@ -1,8 +1,8 @@
-# **Git**
+# Git
 
 [Back](./README.md)
 
-## **Configure Git**
+## Configure Git
 
 Set the Git variables
 

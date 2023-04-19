@@ -1,8 +1,8 @@
-# **NordVPN**
+# NordVPN
 
 [Back](./README.md)
 
-## **Install NordVPN**
+## Install NordVPN
 
 Install NordVPN using [instructions](https://support.nordvpn.com/Connectivity/Linux/1325531132/Installing-and-using-NordVPN-on-Debian-Ubuntu-Raspberry-Pi-Elementary-OS-and-Linux-Mint.htm).
 
@@ -27,7 +27,7 @@ Add user to nordvpn group to allow the user to use nordvpn without sudo.
 usermod -a -G nordvpn tycho 
 ```
 
-## **Log Into NordVPN**
+## Log Into NordVPN
 
 Log into NordVPN with the command line [callback feature](https://www.reddit.com/r/nordvpn/comments/rp59mn/log_in_to_nordvpn_in_the_terminal/).
 
@@ -41,7 +41,7 @@ Then paste the link of the "Continue" button into the following command.
 nordvpn login --callback "nordvpn://link"
 ```
 
-## **Connect to Server**
+## Connect to Server
 
 Connect to a NordVPN [server](https://nordvpn.com/servers/tools/).
 
