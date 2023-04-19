@@ -1,4 +1,4 @@
-# Secure Boot
+# Secure Boot ([GUIDE](https://sysguides.com/fedora-uefi-secure-boot-with-custom-keys/))
 
 [Back](./README.md)
 
