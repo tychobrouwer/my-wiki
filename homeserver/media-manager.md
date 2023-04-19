@@ -286,3 +286,7 @@ Add sonarr user to the media group
 ```(shell)
 usermod -a -G media sonarr 
 ```
+
+</br>
+
+[Top](#media-manager)
