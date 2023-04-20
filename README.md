@@ -30,6 +30,8 @@
 
 - ## [Laptop](./laptop/README.md)
 
+  - **[Troubleshooting](./troubleshooting.md)**
+
   - **[Setup zsh](./laptop/zsh.md)**
 
   - **[Install Elm](./laptop/elm.md)**
