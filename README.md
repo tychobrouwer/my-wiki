@@ -30,7 +30,7 @@
 
 - ## [Laptop](./laptop/README.md)
 
-  - **[Troubleshooting](./troubleshooting.md)**
+  - **[Troubleshooting](./laptop/troubleshooting.md)**
 
   - **[Setup zsh](./laptop/zsh.md)**
 
