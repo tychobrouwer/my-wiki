@@ -4,6 +4,8 @@
 
 ## Navigate
 
+- [Troubleshooting](./troubleshooting.md)
+
 - [Setup zsh](./zsh.md)
 
 - [Install Elm](./elm.md)
@@ -41,6 +43,8 @@
 - [Updating Packages](#updating-packages)
 
 - [Installing Packages](#installing-packages)
+
+- [Remove Unwanted GNOME Extensions](#remove-unwanted-gnome-extensions)
 
 - [Configure SSH](#configure-ssh)
 
@@ -82,6 +86,51 @@ Install FlatPak Packages
                        org.gimp.GIMP com.getmailspring.Mailspring \
                        com.github.iwalton3.jellyfin-media-player \
                        com.google.Chrome com.mojang.Minecraft
+```
+
+### Remove Unwanted GNOME Extensions
+
+Remove the gnome extensions by removing their folders
+
+```(shell)
+cd /usr/share/gnome-shell/extensions
+
+sudo rm -r apps-menu@gnome-shell-extensions.gcompax.github.com
+sudo rm -r clipboard-history@alexsaveau.dev
+sudo rm -r gamemode@chistian.kellner.me
+sudo rm -r gsconnect@andyholmes.github.io
+sudo rm -r places-menu@gnome-shell-extensions.gcompax.github.com
+sudo rm -r window-list@gnome-shell-extensions.gcompax.github.com
+sudo rm -r launch-new-instance@gnome-shell-extensions.gcompax.github.com
+sudo rm -r user-theme@gnome-shell-extensions.gcompax.github.com
+sudo rm -r just-perfection-desktop@just-perfection
+sudo rm -r blur-my-shell@aunetx
+sudo rm -r dash-to-dock@micxgx.gmail.com
+sudo rm -r pop-shell@system76.com
+```
+
+Log out to apply the changes
+
+### Hide Application Desktop Files
+
+Hide some applications from the application list by adding this
+
+```(shell)
+NoDisplay=true
+```
+
+At the bottom of the desktop files
+
+```(shell)
+cd /usr/share/applications
+
+sudo nano unitconv.desktop
+sudo nano cgnsview.desktop
+sudo nano cgnsplot.desktop
+sudo nano cgnsnodes.desktop
+sudo nano cgnscalc.desktop
+
+cd ~/.local/share/applications/wine/Programs
 ```
 
 ### Configure SSH
