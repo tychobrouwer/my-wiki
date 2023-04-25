@@ -7,14 +7,27 @@
 Change the user dirs config file ```~/.config/user-dirs.dirs```
 
 ```(shell)
-XDG_MUSIC_DIR="$HOME/School"
+XDG_MUSIC_DIR=""
 XDG_VIDEOS_DIR="$HOME/Projects"
 ```
 
 Set permissions so it cannot be overwritten
 
 ```(shell)
-chmod 0400 ~/.config/user-dirs.dirs
+sudo chmod 0444 ~/.config/user-dirs.dirs
+```
+
+Set immutable flag with chattr
+
+```(shell)
+sudo chattr +i ~/.config/user-dirs.dirs
+```
+
+If necessary remove permissions with
+
+```(shell)
+sudo chattr -i ~/.config/user-dirs.dirs
+sudo chmod 0644 ~/.config/user-dirs.dirs
 ```
 
 ## Change Icons for Special Directories
