@@ -2,21 +2,7 @@
 
 [Back](./README.md)
 
-## Configure Wireguard
-
-Generate private key with
-
-```(shell)
-genkey | tee /etc/wireguard/private.key
-
-chmod 0600 /etc/wireguard/private.key
-```
-
-Generate the public key for the private key
-
-```(shell)
-cat /etc/wireguard/private.key | wg pubkey | tee /etc/wireguard/public.key
-```
+## Configure Wireguard (Method 1)
 
 Create the wg0 wireguard configuration ```/etc/wireguard/wg0.conf```
 
@@ -45,3 +31,47 @@ Fix resolvconf permissions if necessary
 ```(shell)
 chmod 0755 /usr/sbin/resolvconf.openresolv
 ```
+
+## Configure Wireguard (Method 2)
+
+Open the network manager GUI
+
+```(shell)
+nm-connection-editor
+```
+
+Configure a new Wireguard VPN with
+
+```(shell)
+Interface name:  wg0
+Private key:     PRIVATE_KEY
+Listen port:     automatic
+Fwmark:          off
+MTU:             automatic
+Add peer routes: true
+```
+
+Add a peer with
+
+```(shell)
+Public key:           PRIVATE_KEY
+Allowed IPs:          10.6.0.0/24,192.168.178.0/24
+Endpoint:             WIREGUARD_IP:51820
+Persistent keepalive: 21
+```
+
+For the IPv4 settings
+
+```(shell)
+DNS: 192.168.178.101
+```
+
+Add address
+
+```(shell)
+Address: 10.6.0.3
+Netmask: 32
+Gateway: 0.0.0.0
+```
+
+In the general section select ```Connect automatically with priority```.
