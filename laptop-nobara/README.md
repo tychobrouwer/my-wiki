@@ -85,7 +85,8 @@ Install FlatPak Packages
                        com.visualstudio.code cc.arduino.IDE2 \
                        org.gimp.GIMP com.getmailspring.Mailspring \
                        com.github.iwalton3.jellyfin-media-player \
-                       com.google.Chrome com.mojang.Minecraft
+                       com.google.Chrome com.mojang.Minecraft \
+                       com.usebottles.bottles com.github.tchx84.Flatseal
 ```
 
 ### Remove Unwanted GNOME Extensions
