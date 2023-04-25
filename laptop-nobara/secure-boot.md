@@ -347,4 +347,4 @@ A temporary workaround would be to boot into the old kernel (which is still sign
 
 </br>
 
-[Top](#secure-boot)
+[Top](#secure-boot-guide)
