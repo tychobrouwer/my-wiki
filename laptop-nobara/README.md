@@ -103,7 +103,6 @@ sudo rm -r gsconnect@andyholmes.github.io
 sudo rm -r places-menu@gnome-shell-extensions.gcompax.github.com
 sudo rm -r window-list@gnome-shell-extensions.gcompax.github.com
 sudo rm -r launch-new-instance@gnome-shell-extensions.gcompax.github.com
-sudo rm -r user-theme@gnome-shell-extensions.gcompax.github.com
 sudo rm -r just-perfection-desktop@just-perfection
 sudo rm -r blur-my-shell@aunetx
 sudo rm -r dash-to-dock@micxgx.gmail.com

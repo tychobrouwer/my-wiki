@@ -272,7 +272,7 @@ Then decompress the kernel modules
 
 ```(shell)
 sudo unxz nvidia-drm.ko.xz nvidia.ko.xz nvidia-modeset.ko.xz \
-    nvidia-peermem.ko.xz nvidia-uvm.ko.xz
+    nvidia-peermem.ko.xz nvidia-uvm.ko.xz v4l2loopback/v4l2loopback.ko.xz
 ```
 
 Then sign the modules with the db keys
@@ -292,20 +292,24 @@ Then sign the modules with the db keys
 
 /usr/src/kernels/$(uname -r)/scripts/sign-file \
     sha256 /keys/db.key /keys/db.crt nvidia-uvm.ko
-```
 
-Check if the modules have been signed with
+/usr/src/kernels/$(uname -r)/scripts/sign-file \
+    sha256 $keypath/db.key $keypath/db.crt /lib/modules/$(uname -r)/extra/v4l2loopback/v4l2loopback.ko
 
-```(shell)
-sudo modinfo -F signer nvidia-drm.ko.xz nvidia.ko.xz nvidia-modeset.ko.xz \
-    nvidia-peermem.ko.xz nvidia-uvm.ko.xz
 ```
 
 And finally compress the modules back
 
 ```(shell)
 sudo xz nvidia-drm.ko nvidia.ko nvidia-modeset.ko \
-    nvidia-peermem.ko nvidia-uvm.ko
+    nvidia-peermem.ko nvidia-uvm.ko v4l2loopback/v4l2loopback.ko
+```
+
+Check if the modules have been signed with
+
+```(shell)
+sudo modinfo -F signer nvidia-drm.ko.xz nvidia.ko.xz nvidia-modeset.ko.xz \
+    nvidia-peermem.ko.xz nvidia-uvm.ko.xz v4l2loopback/v4l2loopback.ko.xz
 ```
 
 ### Enable Secure Boot
