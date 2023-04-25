@@ -1,4 +1,4 @@
-# Laptop
+# Laptop (Nobara)
 
 [Back](../README.md)
 
@@ -179,4 +179,4 @@ mkdir ~/Projects
 
 </br>
 
-[Top](#laptop)
+[Top](#laptop-nobara)

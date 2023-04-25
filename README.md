@@ -28,38 +28,38 @@
 
   - **[Ark Survival Server](./homeserver/ark-survival-server.md)**
 
-- ## [Laptop](./laptop/README.md)
+- ## [Laptop (Nobara)](./laptop-nobara/README.md)
 
-  - **[Troubleshooting](./laptop/troubleshooting.md)**
+  - **[Troubleshooting](./laptop-nobara/troubleshooting.md)**
 
-  - **[Setup zsh](./laptop/zsh.md)**
+  - **[Setup zsh](./laptop-nobara/zsh.md)**
 
-  - **[Install Elm](./laptop/elm.md)**
+  - **[Install Elm](./laptop-nobara/elm.md)**
 
-  - **[Install Flutter](./laptop/flutter.md)**
+  - **[Install Flutter](./laptop-nobara/flutter.md)**
 
-  - **[Install Howdy](./laptop/howdy.md)**
+  - **[Install Howdy](./laptop-nobara/howdy.md)**
 
-  - **[Install NordVPN](./laptop/nordvpn.md)**
+  - **[Install NordVPN](./laptop-nobara/nordvpn.md)**
 
-  - **[Install TLP](./laptop/tlp.md)**
+  - **[Install TLP](./laptop-nobara/tlp.md)**
 
-  - **[Install Vivaldi](./laptop/tlp.md)**
+  - **[Install Vivaldi](./laptop-nobara/tlp.md)**
 
-  - **[Setup Git](./laptop/git.md)**
+  - **[Setup Git](./laptop-nobara/git.md)**
 
-  - **[Setup SMB Mounts](./laptop/smb-mounts.md)**
+  - **[Setup SMB Mounts](./laptop-nobara/smb-mounts.md)**
 
-  - **[Setup Wireguard](./laptop/wireguard.md)**
+  - **[Setup Wireguard](./laptop-nobara/wireguard.md)**
 
-  - **[Setup XDG Directories](./laptop/xdg-directories.md)**
+  - **[Setup XDG Directories](./laptop-nobara/xdg-directories.md)**
 
-  - **[Install MatLab](./laptop/matlab.md)**
+  - **[Install MatLab](./laptop-nobara/matlab.md)**
 
-  - **[Install Windows Programs](./laptop/windows-programs.md)**
+  - **[Install Windows Programs](./laptop-nobara/windows-programs.md)**
 
-  - **[Setup Windows 11 VM](./laptop/windows.md)**
+  - **[Setup Windows 11 VM](./laptop-nobara/windows.md)**
 
-  - **[Setup dconf Settings](./laptop/dconf.md)**
+  - **[Setup dconf Settings](./laptop-nobara/dconf.md)**
 
-  - **[Setup Secure Boot](./laptop/secure-boot.md)**
+  - **[Setup Secure Boot](./laptop-nobara/secure-boot.md)**
