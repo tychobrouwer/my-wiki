@@ -38,6 +38,8 @@
 
 - [Setup Secure Boot](./secure-boot.md)
 
+- [Setup GNOME Themes](./gnome-themes.md)
+
 ## Laptop Setup
 
 - [Updating Packages](#updating-packages)
