@@ -1,4 +1,4 @@
-# Laptop
+# Laptop (Nobara)
 
 [Back](../README.md)
 
@@ -37,6 +37,8 @@
 - [Setup dconf Settings](./dconf.md)
 
 - [Setup Secure Boot](./secure-boot.md)
+
+- [Setup GNOME Themes](./gnome-themes.md)
 
 ## Laptop Setup
 
@@ -85,7 +87,8 @@ Install FlatPak Packages
                        com.visualstudio.code cc.arduino.IDE2 \
                        org.gimp.GIMP com.getmailspring.Mailspring \
                        com.github.iwalton3.jellyfin-media-player \
-                       com.google.Chrome com.mojang.Minecraft
+                       com.google.Chrome com.mojang.Minecraft \
+                       com.usebottles.bottles com.github.tchx84.Flatseal
 ```
 
 ### Remove Unwanted GNOME Extensions
@@ -102,7 +105,6 @@ sudo rm -r gsconnect@andyholmes.github.io
 sudo rm -r places-menu@gnome-shell-extensions.gcompax.github.com
 sudo rm -r window-list@gnome-shell-extensions.gcompax.github.com
 sudo rm -r launch-new-instance@gnome-shell-extensions.gcompax.github.com
-sudo rm -r user-theme@gnome-shell-extensions.gcompax.github.com
 sudo rm -r just-perfection-desktop@just-perfection
 sudo rm -r blur-my-shell@aunetx
 sudo rm -r dash-to-dock@micxgx.gmail.com
@@ -179,4 +181,4 @@ mkdir ~/Projects
 
 </br>
 
-[Top](#laptop)
+[Top](#laptop-nobara)

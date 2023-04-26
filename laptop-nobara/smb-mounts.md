@@ -40,7 +40,7 @@ Create mount service for the file share ```/etc/systemd/system/mnt-file_share.mo
 Description=file share mount point
 RequiresMountsFor=/mnt
 Requires=NetworkManager.service dbus.service wpa_supplicant.service
-After=NetworkManager.service dbus.service wpa_supplicant.service
+After=sys-devices-virtual-net-wg0.device NetworkManager.service dbus.service wpa_supplicant.service
 
 [Mount]
 What=//192.168.178.104/file_share/
@@ -61,7 +61,7 @@ Create mount service for the media share ```/etc/systemd/system/mnt-video_share.
 Description=video share mount point
 RequiresMountsFor=/mnt
 Requires=NetworkManager.service dbus.service wpa_supplicant.service
-After=NetworkManager.service dbus.service wpa_supplicant.service
+After=sys-devices-virtual-net-wg0.device NetworkManager.service dbus.service wpa_supplicant.service
 
 [Mount]
 What=//192.168.178.104/video_share/
@@ -82,7 +82,7 @@ Create mount service for the school folder ```/etc/systemd/system/home-tychob-Sc
 Description=school share mount point
 RequiresMountsFor=/home/tychob
 Requires=NetworkManager.service dbus.service wpa_supplicant.service
-After=NetworkManager.service dbus.service wpa_supplicant.service
+After=sys-devices-virtual-net-wg0.device NetworkManager.service dbus.service wpa_supplicant.service
 
 [Mount]
 What=//192.168.178.104/file_share/School

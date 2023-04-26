@@ -12,17 +12,18 @@ unxz /lib/modules/$(uname -r)/extra/nvidia.ko.xz
 unxz /lib/modules/$(uname -r)/extra/nvidia-modeset.ko.xz
 unxz /lib/modules/$(uname -r)/extra/nvidia-peermem.ko.xz
 unxz /lib/modules/$(uname -r)/extra/nvidia-uvm.ko.xz
+# Unzip the v4l2loopback kernel module
+unxz /lib/modules/$(uname -r)/extra/v4l2loopback/v4l2loopback.ko.xz
+
 
 # Sign the NVIDIA kernel modules with the db key
 /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 $keypath/db.key $keypath/db.crt /lib/modules/$(uname -r)/extra/nvidia-drm.ko
-
 /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 $keypath/db.key $keypath/db.crt /lib/modules/$(uname -r)/extra/nvidia.ko
-
 /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 $keypath/db.key $keypath/db.crt /lib/modules/$(uname -r)/extra/nvidia-modeset.ko
-
 /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 $keypath/db.key $keypath/db.crt /lib/modules/$(uname -r)/extra/nvidia-peermem.ko
-
 /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 $keypath/db.key $keypath/db.crt /lib/modules/$(uname -r)/extra/nvidia-uvm.ko
+# Sign the v4l2loopback kernel module with the db key
+/usr/src/kernels/$(uname -r)/scripts/sign-file sha256 $keypath/db.key $keypath/db.crt /lib/modules/$(uname -r)/extra/v4l2loopback/v4l2loopback.ko
 
 # Rezip the NVIDIA kernel modules`
 xz /lib/modules/$(uname -r)/extra/nvidia-drm.ko
@@ -30,3 +31,5 @@ xz /lib/modules/$(uname -r)/extra/nvidia.ko
 xz /lib/modules/$(uname -r)/extra/nvidia-modeset.ko
 xz /lib/modules/$(uname -r)/extra/nvidia-peermem.ko
 xz /lib/modules/$(uname -r)/extra/nvidia-uvm.ko
+# Rezip the v4l2loopback kernel module
+xz /lib/modules/$(uname -r)/extra/v4l2loopback/v4l2loopback.ko
