@@ -38,7 +38,7 @@
 
 - [Setup Secure Boot](./secure-boot.md)
 
-- [Setup GNOME Themes](./gnome-themes.md)
+- [Setup GNOME and GDM Themes](./gnome-gdm-themes.md)
 
 ## Laptop Setup
 
