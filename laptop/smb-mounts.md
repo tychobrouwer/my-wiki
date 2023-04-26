@@ -48,6 +48,7 @@ Where=/mnt/file_share
 Type=cifs
 Options=uid=tychob,gid=tychob,_netdev,nofail,credentials=/etc/cifspasswd
 TimeoutSec=10
+LazyUnmount=true
 
 [Install]
 WantedBy=multi-user.target
@@ -68,6 +69,7 @@ Where=/mnt/video_share
 Type=cifs
 Options=uid=tychob,gid=tychob,_netdev,nofail,credentials=/etc/cifspasswd
 TimeoutSec=10
+LazyUnmount=true
 
 [Install]
 WantedBy=multi-user.target
@@ -88,6 +90,7 @@ Where=/home/tychob/School
 Type=cifs
 Options=uid=tychob,gid=tychob,_netdev,nofail,credentials=/etc/cifspasswd
 TimeoutSec=10
+LazyUnmount=true
 
 [Install]
 WantedBy=multi-user.target
