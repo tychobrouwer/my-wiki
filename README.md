@@ -14,7 +14,7 @@
 
   - **[Torrent](./homeserver/portainer.md)**
 
-  - **[Lighttpd Website](./homeserver/lighttpd-website.md)**
+  - **[Lighttpd Website](./homeserver/lighttpd.md)**
 
   - **[Media Manager](./homeserver/media-manager.md)**
 

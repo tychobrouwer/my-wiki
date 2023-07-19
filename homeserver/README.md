@@ -16,7 +16,7 @@
 
 - [Torrent](./portainer.md)
 
-- [Lighttpd Website](./lighttpd-website.md)
+- [Lighttpd Website](./lighttpd.md)
 
 - [Media Manager](./media-manager.md)
 
